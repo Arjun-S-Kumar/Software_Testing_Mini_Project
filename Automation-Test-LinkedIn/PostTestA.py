@@ -27,17 +27,6 @@ def test_post():
         search = driver.find_element("xpath", '//*[@id="ember26"]')
         search.click()
 
-    with allure.step("Create post"):
-        # Create a new post
-
-    with allure.step("Enter post content"):
-        # Enter the post content
-
-    with allure.step("Submit post"):
-        # Click the submit button
-
-    with allure.step("Verify post created"):
-        # Verify that the post was created successfully
 
     with allure.step("Close browser"):
         driver.close()

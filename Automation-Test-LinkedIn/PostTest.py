@@ -12,18 +12,8 @@ search.send_keys("qwerty12345")
 search.submit()
 
 time.sleep(60)
-search = driver.find_element("xpath",'//*[@id="ember27"]')
+search = driver.find_element("xpath",'//*[@id="ember26"]')
 search.click()
 
-search = driver.find_element("xpath", "/html/body/div[3]/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/div[1]")
-search.send_keys("This is my post content")
-
-# Add hashtags (optional)
-search.send_keys(Keys.SHIFT + Keys.ENTER)
-
-# Click on the "Post" button
-search = driver.find_element("xpath", "/html/body/div[3]/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/button/span")
-search.click()
-
-time.sleep(20)
+time.sleep(5)
 driver.close()
