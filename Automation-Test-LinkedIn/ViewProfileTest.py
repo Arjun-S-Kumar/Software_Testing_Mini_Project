@@ -18,5 +18,5 @@ search.click()
 
 
 
-time.sleep(100)
+time.sleep(20)
 driver.close()
