@@ -15,7 +15,8 @@ time.sleep(1)
 search.submit()
 time.sleep(60)
 driver.get("https://www.linkedin.com/article/new/")
-time.sleep(10)
-
+search.submit()
+time.sleep(20)
+driver.close()
 
 
