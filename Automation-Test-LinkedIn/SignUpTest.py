@@ -6,9 +6,9 @@ driver = webdriver.Firefox()
 driver.get("https://www.linkedin.com/")
 
 search = driver.find_element("id","session_key")
-search.send_keys("lohit.k2307@gmail.com")
+search.send_keys("bcanhck29@gmail.com")
 search = driver.find_element("id","session_password")
-search.send_keys("lohit23july2003")
+search.send_keys("qwerty12345")
 
 
 search.submit()
