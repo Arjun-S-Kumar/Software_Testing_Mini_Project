@@ -14,11 +14,8 @@ search.send_keys("qwerty12345")
 time.sleep(1)
 search.submit()
 time.sleep(60)
-search = driver.find_element("xpath",'//*[@id="ember344"]')
-search.click()
+driver.get("https://www.linkedin.com/article/new/")
 time.sleep(10)
 
 
 
-/html/body/div[5]/div[3]/div/div/div[2]/div/div/main/div[3]/div/div[1]/div[2]/div/div/div/div/div/div/div[6]/div[2]/span[1]/button[1]/span
-/html/body/div[5]/div[3]/div/div/div[2]/div/div/main/div[3]/div/div[1]/div[1]/div/div/div/div/div/div/div[7]/div[2]/span[1]/button[1]/span/div
