@@ -1,5 +1,6 @@
 import time
 from selenium import webdriver
+from selenium.webdriver import Keys
 
 driver = webdriver.Firefox()
 driver.get("https://www.linkedin.com/")
@@ -14,5 +15,5 @@ time.sleep(60)
 search = driver.find_element("xpath",'//*[@id="ember26"]')
 search.click()
 
-time.sleep(20)
+time.sleep(5)
 driver.close()

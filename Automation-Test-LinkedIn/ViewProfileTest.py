@@ -16,10 +16,5 @@ search.submit()
 time.sleep(60)
 search = driver.find_element("xpath","/html/body/div[5]/div[3]/div/div/div[2]/div/div/div/div/div[1]/div[1]/a/div[2]")
 search.click()
-search = driver.find_element("xpath","/html/body/div[4]/div[3]/div/div/div[2]/div/div/main/div[1]/div[2]/div[3]/a[2]/span")
-search.click()
-
-
-
 time.sleep(20)
 driver.close()
